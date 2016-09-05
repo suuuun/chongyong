@@ -1,0 +1,22 @@
+//
+//  yidong-Prefix.pch
+//  yidong
+//
+//  Created by MAC on 16/8/12.
+//  Copyright © 2016年 MAC. All rights reserved.
+//
+
+#ifndef yidong_Prefix_pch
+#define yidong_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import "PureLayout.h"
+#import "CategoryUtil.h"
+#import "Config.h"
+
+#endif /* yidong_Prefix_pch */

@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C9967C1D5DA6C6004311BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C9967B1D5DA6C6004311BD /* main.m */; };
+		04C9967F1D5DA6C6004311BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C9967E1D5DA6C6004311BD /* AppDelegate.m */; };
+		04C996821D5DA6C6004311BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C996811D5DA6C6004311BD /* ViewController.m */; };
+		04C996871D5DA6C6004311BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C996861D5DA6C6004311BD /* Assets.xcassets */; };
+		04C996951D5DAC9C004311BD /* CustomSegmentControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C996941D5DAC9C004311BD /* CustomSegmentControlView.m */; };
+		04C996981D5DB891004311BD /* CategoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C996971D5DB891004311BD /* CategoryUtil.m */; };
+		04C9969C1D5DCCCC004311BD /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C9969B1D5DCCCC004311BD /* CustomScrollView.m */; };
+		12EB483EC10282BC8F3293DD /* libPods-yidong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFBD35705F2D7EA112635E0 /* libPods-yidong.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C996771D5DA6C5004311BD /* yidong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yidong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C9967B1D5DA6C6004311BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C9967D1D5DA6C6004311BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C9967E1D5DA6C6004311BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C996801D5DA6C6004311BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04C996811D5DA6C6004311BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04C996861D5DA6C6004311BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C9968B1D5DA6C6004311BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C996921D5DABB7004311BD /* yidong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yidong-Prefix.pch"; sourceTree = "<group>"; };
+		04C996931D5DAC9C004311BD /* CustomSegmentControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentControlView.h; sourceTree = "<group>"; };
+		04C996941D5DAC9C004311BD /* CustomSegmentControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentControlView.m; sourceTree = "<group>"; };
+		04C996961D5DB891004311BD /* CategoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryUtil.h; sourceTree = "<group>"; };
+		04C996971D5DB891004311BD /* CategoryUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryUtil.m; sourceTree = "<group>"; };
+		04C996991D5DC472004311BD /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		04C9969A1D5DCCCC004311BD /* CustomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
+		04C9969B1D5DCCCC004311BD /* CustomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
+		519134D1FEE6DD5046DC8A08 /* Pods-yidong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yidong.release.xcconfig"; path = "Pods/Target Support Files/Pods-yidong/Pods-yidong.release.xcconfig"; sourceTree = "<group>"; };
+		7EFBD35705F2D7EA112635E0 /* libPods-yidong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yidong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FBB08EB35ABE21D2BECA6B /* Pods-yidong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yidong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yidong/Pods-yidong.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C996741D5DA6C5004311BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EB483EC10282BC8F3293DD /* libPods-yidong.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C9966E1D5DA6C5004311BD = {
+			isa = PBXGroup;
+			children = (
+				04C996791D5DA6C6004311BD /* yidong */,
+				04C996781D5DA6C5004311BD /* Products */,
+				FC31A3270F045E02590CD5B8 /* Pods */,
+				EF5673CFE752644F9BC87326 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C996781D5DA6C5004311BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C996771D5DA6C5004311BD /* yidong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C996791D5DA6C6004311BD /* yidong */ = {
+			isa = PBXGroup;
+			children = (
+				04C996991D5DC472004311BD /* Config.h */,
+				04C996961D5DB891004311BD /* CategoryUtil.h */,
+				04C996971D5DB891004311BD /* CategoryUtil.m */,
+				04C996911D5DA79B004311BD /* view */,
+				04C9967D1D5DA6C6004311BD /* AppDelegate.h */,
+				04C9967E1D5DA6C6004311BD /* AppDelegate.m */,
+				04C996801D5DA6C6004311BD /* ViewController.h */,
+				04C996811D5DA6C6004311BD /* ViewController.m */,
+				04C996861D5DA6C6004311BD /* Assets.xcassets */,
+				04C9968B1D5DA6C6004311BD /* Info.plist */,
+				04C9967A1D5DA6C6004311BD /* Supporting Files */,
+			);
+			path = yidong;
+			sourceTree = "<group>";
+		};
+		04C9967A1D5DA6C6004311BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C9967B1D5DA6C6004311BD /* main.m */,
+				04C996921D5DABB7004311BD /* yidong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C996911D5DA79B004311BD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04C996931D5DAC9C004311BD /* CustomSegmentControlView.h */,
+				04C996941D5DAC9C004311BD /* CustomSegmentControlView.m */,
+				04C9969A1D5DCCCC004311BD /* CustomScrollView.h */,
+				04C9969B1D5DCCCC004311BD /* CustomScrollView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		EF5673CFE752644F9BC87326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EFBD35705F2D7EA112635E0 /* libPods-yidong.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC31A3270F045E02590CD5B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94FBB08EB35ABE21D2BECA6B /* Pods-yidong.debug.xcconfig */,
+				519134D1FEE6DD5046DC8A08 /* Pods-yidong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C996761D5DA6C5004311BD /* yidong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C9968E1D5DA6C6004311BD /* Build configuration list for PBXNativeTarget "yidong" */;
+			buildPhases = (
+				802D0D7F0A0E1C83C2BD67B5 /* [CP] Check Pods Manifest.lock */,
+				04C996731D5DA6C5004311BD /* Sources */,
+				04C996741D5DA6C5004311BD /* Frameworks */,
+				04C996751D5DA6C5004311BD /* Resources */,
+				7EE3D4FD52491B1A091552F4 /* [CP] Embed Pods Frameworks */,
+				8EA763E98A095C6B2054B3DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yidong;
+			productName = yidong;
+			productReference = 04C996771D5DA6C5004311BD /* yidong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C9966F1D5DA6C5004311BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					04C996761D5DA6C5004311BD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 04C996721D5DA6C5004311BD /* Build configuration list for PBXProject "yidong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C9966E1D5DA6C5004311BD;
+			productRefGroup = 04C996781D5DA6C5004311BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C996761D5DA6C5004311BD /* yidong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C996751D5DA6C5004311BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C996871D5DA6C6004311BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EE3D4FD52491B1A091552F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yidong/Pods-yidong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802D0D7F0A0E1C83C2BD67B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA763E98A095C6B2054B3DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yidong/Pods-yidong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C996731D5DA6C5004311BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C996821D5DA6C6004311BD /* ViewController.m in Sources */,
+				04C996981D5DB891004311BD /* CategoryUtil.m in Sources */,
+				04C9969C1D5DCCCC004311BD /* CustomScrollView.m in Sources */,
+				04C9967F1D5DA6C6004311BD /* AppDelegate.m in Sources */,
+				04C9967C1D5DA6C6004311BD /* main.m in Sources */,
+				04C996951D5DAC9C004311BD /* CustomSegmentControlView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04C9968C1D5DA6C6004311BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C9968D1D5DA6C6004311BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C9968F1D5DA6C6004311BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FBB08EB35ABE21D2BECA6B /* Pods-yidong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yidong/yidong-Prefix.pch";
+				INFOPLIST_FILE = yidong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yidong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04C996901D5DA6C6004311BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519134D1FEE6DD5046DC8A08 /* Pods-yidong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yidong/yidong-Prefix.pch";
+				INFOPLIST_FILE = yidong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yidong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C996721D5DA6C5004311BD /* Build configuration list for PBXProject "yidong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C9968C1D5DA6C6004311BD /* Debug */,
+				04C9968D1D5DA6C6004311BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C9968E1D5DA6C6004311BD /* Build configuration list for PBXNativeTarget "yidong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C9968F1D5DA6C6004311BD /* Debug */,
+				04C996901D5DA6C6004311BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C9966F1D5DA6C5004311BD /* Project object */;
+}

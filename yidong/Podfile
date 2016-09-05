@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+def daoway_pods
+  pod 'AFNetworking'
+  pod 'PureLayout'
+end
+ 
+target ‘yidong’ do
+    daoway_pods
+end
